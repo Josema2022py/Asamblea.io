@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de Modificación de Estatuto Social</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .table-container {
+            margin: 20px 0;
+        }
+
+        .accordion-item {
+            border: 1px solid #ddd;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        .accordion-header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            cursor: pointer;
+            font-weight: bold;
+            display: block;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .accordion-header.active {
+            background-color: #388E3C;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .accordion-content {
+            padding: 15px;
+            display: none; 
+            border-top: 1px solid #eee;
+        }
+        
+        .header-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo-container {
+            margin-bottom: 10px;
+        }
+        .logo-container img {
+            max-width: 100px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius:30%; 
+            border: 5px solid #4CAF50;
+        }
+        
+        h1 {
+            font-size: 2.2em; 
+            font-weight: 700;
+            color: #2E7D32; 
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+        
+        .content-grid {
+            display: flex;
+            flex-direction: column; 
+            gap: 15px;
+        }
+        
+        .content-section {
+            padding: 10px;
+            border-left: 3px solid #ccc;
+            flex: 1 1 100%; 
+            background-color: #fcfcfc;
+            border-radius: 3px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            color: #2E7D32;
+            margin-bottom: 5px;
+            display: block;
+            padding-bottom: 5px;
+            border-bottom: 1px dashed #e0e0e0;
+        }
+        
+        @media (min-width: 992px) {
+            .content-grid {
+                flex-direction: row; 
+            }
+            .content-section {
+                flex: 1 1 0; 
+                min-width: 0;
+            }
+        }
+
+        ins {
+            background-color: #dff0d8;
+            color: #3c763d;
+            text-decoration: none;
+        }
+        del {
+            background-color: #f2dede;
+            color: #a94442;
+            text-decoration: none;
+        }
+        .article-title {
+            font-weight: bold;
+            color: #2E7D32;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-container">
+        <div class="logo-container">
+            <img src="https://www.coop19demarzo.coop.py/wp-content/uploads/2023/05/19mlog.png" alt="Logo de la Cooperativa">
+        </div>
+        
+        <h1>Proyecto de Modificación de Estatuto Social</h1>
+    </div>
+
+    <p style="text-align: center; max-width: 800px; margin: 0 auto 30px;">Este documento presenta las modificaciones propuestas a los estatutos, comparando el artículo original con la propuesta y su justificación. Haga clic en cada artículo para ver los detalles.</p>
+    <div class="table-container">
+        <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">
+                Art. 21° Exclusión
+            </button>
+            <div class="accordion-content">
+                <div class="content-grid">
+                    <div class="content-section">
+                        <span class="section-title">Artículo Original</span>
+                        <span class="article-title">Art. 21° Exclusión</span><br>
+                        La medida de exclusión no implica sanción disciplinaria. El Consejo de Administración la adoptará cuando el socio: a) Perdió el requisito fijado en el inciso a) del Art. 8° de este Estatuto.<br>
+                        b) Dejo de integrar durante diez y ocho meses consecutivos los certificados de aportación en la forma y condiciones señaladas en el Art. 15° inc. g) de este estatuto.
+                    </div>
+                    <div class="content-section">
+                        <span class="section-title">Propuesta</span>
+                        <span class="article-title">Art. 21° Exclusión</span><br>
+                        La medida de exclusión no implica sanción disciplinaria. El Consejo de Administración la adoptará cuando el socio: a) Perdió el requisito fijado en el inciso a) del Art. 8° de este Estatuto.<br>
+                        b) Dejo de integrar durante <del>seis</del> meses consecutivos los certificados de aportación en la forma y condiciones señaladas en el Art. 15° inc. g) de este estatuto.
+                    </div>
+                    <div class="content-section">
+                        <span class="section-title">Justificación</span>
+                        Mantener diez y ocho meses como tiempo para la exclusión, implica abonar las tasas al Incoop por casi dos años, por asociados que no aportan nada a la institución, lo que representa un gasto sin sentido para la entidad, la cual lo asumen los demás asociados que si trabajan con la cooperativa.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">
+                Art. 36° Distribución del excedente
+            </button>
+            <div class="accordion-content">
+                <div class="content-grid">
+                    <div class="content-section">
+                        <span class="section-title">Artículo Original</span>
+                        <span class="article-title">Art. 36° Distribución del excedente</span><br>
+                        a)<br>
+                        b)<br>
+                        c)
+                    </div>
+                    <div class="content-section">
+                        <span class="section-title">Propuesta</span>
+                        <span class="article-title">Art. 36° Distribución del excedente</span><br>a)<br>b)<br><del>c) Inclusión del fondo creado en Asamblea anterior</del>
+                    </div>
+                    <div class="content-section">
+                        <span class="section-title">Justificación</span>
+                        Actualizar estatuto incorporar el Fondo de Contingencia.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">
+                Art. 52° Participación en la Asamblea y Derecho a voto
+            </button>
+            <div class="accordion-content">
+                <div class="content-grid">
+                    <div class="content-section">
+                        <span class="section-title">Artículo Original</span>
+                        <span class="article-title">Art. 52° Participación en la Asamblea y Derecho a voto</span><br>
+                        Podrán participar en las Asambleas con derecho a voz y voto, los socios que al momento de la convocatoria estén al día en el pago de sus obligaciones societarias y económicas, a falta de este requisito solo tendrán derecho a voz. Cada socio deberá acreditarse en el libro de asistencia a Asamblea y se le entregará una tarjeta credencial en la cual constará su nombre, apellido y numero de socio, que le servirá de entrada a la Asamblea. No podrán ingresar al recinto Asambleario las personas que no sean socias de la Cooperativa, salvo los proveedores de servicios o invitados de forma oficial por parte del Consejo de Administración.
+                    </div>
+                    <div class="content-section">
+                        <span class="section-title">Propuesta</span>
+                        <span class="article-title">Art. 52° Participación en la Asamblea y Derecho a voto</span><br>Podrán participar en las Asambleas con derecho a voz y voto, los socios que al momento de la convocatoria estén al día en el pago de sus obligaciones societarias y económicas <del>y tengan una antigüedad de por los menos tres meses</del>, a falta de este requisito solo tendrán derecho a voz. Cada socio deberá acreditarse en el libro de asistencia a Asamblea y se le entregará una tarjeta credencial en la cual constará su nombre, apellido y numero de socio, que le servirá de entrada a la Asamblea. No podrán ingresar al recinto Asambleario las personas que no sean socias de la Cooperativa, salvo los proveedores de servicios o invitados de forma oficial por parte del Consejo de Administración.</ins>
+                    </div>
+                    <div class="content-section">
+                        <span class="section-title">Justificación</span>
+                        Se cree importante blindar las decisiones que se adopten en las Asambleas, estableciendo una antigüedad mínima para contar con voz y voto y no permitir que personas que no participaron como asociados en el ejercicio del cual se rinde cuenta, opinen sobre el mismo y se impongan las decisiones de quienes no tienen una mínima antigüedad como asociados.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">
+                Art 62° Requisitos para ser Consejero
+            </button>
+            <div class="accordion-content">
+                <div class="content-grid">
+                    <div class="content-section">
+                        <span class="section-title">Artículo Original</span>
+                        <span class="article-title">Art 62° Requisitos para ser Consejero</span><br>
+                        Para ser miembro del Consejo de Administración, se requerirá:<br>
+                        a) Ser socio con una antigüedad mínima de dos años<br>
+                        b) Tener plena capacidad para obligarse, la que se acreditará con el certificado respectivo expedido por la autoridad competente<br>
+                        c) No tener obligaciones vencidas con la cooperativa, otras cooperativas y entidades financieras.<br>
+                        d) Acreditar la participación en jornadas de educación cooperativa exigidos por el ente regulador, realizados en los últimos 12 meses previos a su postulación. Además 20 horas cátedras de capacitación como mínimo adicional al punto anterior, ya sea interna o externa sobre temas relacionados al cooperativismo.<br>
+                        e) No haber sido sentenciado judicialmente a raíz de demanda promovida por la Cooperativa o en el sistema financiero, por su incumplimiento de obligaciones.<br>
+                        f) Haber participado en la última Asamblea Ordinaria, que será verificado por el Tribunal Electoral Independiente.
+                    </div>
+                    <div class="content-section">
+                        <span class="section-title">Propuesta</span>
+                        <span class="article-title">Art 62° Requisitos para ser Consejero</span><br>
+                        Para ser miembro del Consejo de Administración, se requerirá:<br>
+                        a) Ser socio con una antigüedad mínima de dos años<br>
+                        b) Tener plena capacidad para obligarse, la que se acreditará con el certificado respectivo expedido por la autoridad competente<br>
+                        c) No tener obligaciones vencidas con la cooperativa, otras cooperativas y entidades financieras.<br>
+                        d) Acreditar la participación en jornadas de educación cooperativa <del>con la carga horaria mínima</del> exigidos por el ente regulador, realizados en los últimos 12 meses previos a su postulación.<br>
+                        e)<del>Acreditar la participación con no menos de</del> 20 horas cátedras de capacitación, adicional al inciso anterior, ya sean <del>estas</del> interna o externa <del>a la entidad</del> sobre temas relacionados al cooperativismo.<br>
+                        f)No haber sido sentenciado judicialmente a raíz de demanda promovida por la Cooperativa o en el sistema financiero, por su incumplimiento de obligaciones.<br>
+                        g)Haber participado en las <del>dos</del> últimas Asambleas Ordinarias, que será verificado por el Tribunal Electoral. Independiente.
+                    </div>
+                    <div class="content-section">
+                        <span class="section-title">Justificación</span>
+                        En el presente artículo, se pretende aclarar el requisito de las cargas horarias exigidas por el Estatuto Social, para aquellos que deseen presentar sus candidaturas para órganos electivos, a fin de que no exista confusión alguna en su interpretación ( inc. “d” original).<br>
+                        Del mismo modo, se cree que lo establecido en el Inciso “f” del Estatuto vigente, en el cual exige como requisito la participación en la “última Asamblea Ordinaria” se cree que es mínima, por lo cual se propone que aquel asociado o asociada que desee presentarse como candidato/a para algún cargo electivo, mínimamente debería demostrar su interés en la entidad, participando cada año en sus Asambleas, pero por lo menos en las dos últimas Asambleas Ordinarias.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">
+                Art- 67° Duración de Mandatos
+            </button>
+            <div class="accordion-content">
+                <div class="content-grid">
+                    <div class="content-section">
+                        <span class="section-title">Artículo Original</span>
+                        <span class="article-title">Art- 67° Duración de Mandatos</span><br>
+                        Sin tomar en consideración el cargo que ocupen los miembros titulares del Consejo de Administración, durarán cuatro (4) años en sus funciones y podrán ser reelectos por un (1) periodo más en el mismo órgano electivo. Transcurrido el segundo periodo, que corresponde a la reelección, deberá cesar indefectiblemente por los menos dos (2) años, para volver a candidatarse en el mismo órgano, pudiendo candidatarse para otro órgano electivo o integrar algún comité o cumplir alguna función delegada por la Cooperativa. Los suplentes durarán dos (2) años en sus funciones, salvo que hayan pasado a ocupar de forma permanente el cargo de Consejero titular, caso en el cual completará el periodo del reemplazado.
+                    </div>
+                    <div class="content-section">
+                        <span class="section-title">Propuesta</span>
+                        <span class="article-title">Art- 67° Duración de Mandatos</span> <br>
+                        Sin tomar en consideración el cargo que ocupen los miembros titulares del Consejo de Administración, durarán cuatro (4) años en sus funciones y podrán ser reelectos. Los suplentes durarán dos (2) años en sus funciones, salvo que hayan pasado a ocupar de forma permanente el cargo de Consejero titular, caso en el cual completará el periodo del reemplazado.
+                    </div>
+                    <div class="content-section">
+                        <span class="section-title">Justificación</span>
+                        Se sugiere en este artículo suprimir la frase: <b>y podrán ser reelectos por un (1) periodo más en el mismo órgano electivo</b> y dejar solamente: <b>y podrán ser reelectos.</b> Esta sugerencia se fundamenta en que prácticamente ninguna entidad utiliza esta normativa, debido a que la gobernabilidad y la estabilidad de los dirigentes, se encuentra directamente relacionada con la consecución de planes a largo plazo y el desarrollo de la entidad. Se cree que si la gestión de algún Directivo no satisface a los asociados, son los mismos asociados quienes promoverán la salida de aquellos que no han cumplido las expectativas que la membresía han depositado en ellos.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">
+                Art. 87° De los Suplentes
+            </button>
+            <div class="accordion-content">
+                <div class="content-grid">
+                    <div class="content-section">
+                        <span class="section-title">Artículo Original</span>
+                        <span class="article-title">Art. 87° De los Suplentes</span><br>
+                        Los miembros suplentes del Consejo de Administración, en orden de prelación determinado por los votos obtenidos en la Asamblea, serán promovidos a la titularidad en caso de ausencia, renuncia, remoción, fallecimiento o permiso del miembro titular. Tratándose de ausencia circunstancial, el remplazo será automático, pero válido solamente para la sesión respectiva en la que se verifique la ausencia del miembro titular. Si la sustitución fuera definitiva, el reemplazante completará el periodo de mandato que correspondía al reemplazado.<br>
+                        Los miembros suplentes podrán asistir a las sesiones del Consejo de Administración en las que tendrán derecho a voz, pero sin voto, mientras no fueran puestos en ejercicio de la titularidad. En el caso, que asuma la titularidad circunstancial, temporal o definitiva tendrá derecho a percibir la retribución en concepto de dieta.
+                    </div>
+                    <div class="content-section">
+                        <span class="section-title">Propuesta</span>
+                        <span class="article-title">Art. 87° De los Suplentes</span><br>
+                        Los miembros suplentes del Consejo de Administración, en orden de prelación determinado por los votos obtenidos en la Asamblea, <del>serán llamados por el Consejo de Administración a ocupar</del> la titularidad en caso de ausencia, renuncia, remoción, fallecimiento del miembro titular. Los miembros suplentes podrán asistir a las sesiones del Consejo de Administración en las que tendrán derecho a voz, pero sin voto, mientras no fueran puestos en ejercicio de la titularidad. En el caso, que asuma la titularidad tendrá derecho a percibir la retribución en concepto de dieta.<br>
+                    </div>
+                    <div class="content-section">
+                        <span class="section-title">Justificación</span>
+                        En primer término, la Ley no prevé (Art 64° Ley 438/94) la figura del “permiso” debido a que la dieta es asignada por sesiones asistidas<br>
+                        Otro punto lo representa el pago de dieta, ya que se podría dar que en una misma sesión asista uno o mas miembros suplentes y que en determinado momento uno o más miembros titulares deben retirarse de la sesión. Con la redacción actual, automáticamente el o los suplentes asumirían la titularidad y el dilema consistirá a quien abonar la dieta correspondiente a esa sesión. Por este motivo se sugiere que se proceda tal cual se establece en las normas legales y el remplazo del miembro titular solo se ejecute por los motivos mencionados en las mencionadas normas.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">
+                Art 92° Representación de la Junta
+            </button>
+            <div class="accordion-content">
+                <div class="content-grid">
+                    <div class="content-section">
+                        <span class="section-title">Artículo Original</span>
+                        <span class="article-title">Art 92° Representación de la Junta</span><br>
+                        El Presidente de la junta de Vigilancia ejercerá la representación del órgano que preside y suscribirá conjuntamente con los demás miembros titulares, el dictamen  sobre los estados contables y la memoria presentada a la Asamblea y cualquier otro documento elevado a consideración de los Asambleistas que requiere el parecer de la Junta. (sigue igual)
+                    </div>
+                    <div class="content-section">
+                        <span class="section-title">Propuesta (con cambios resaltados)</span>
+                        <span class="article-title">Art 92° Representación de la Junta</span><br>
+                        El Presidente de la junta de Vigilancia ejercerá <del>conjuntamente con los demás miembros titulares</del> la representación del órgano que preside y suscribirá con ellos, el dictamen  sobre los estados contables y la memoria presentada a la Asamblea y cualquier otro documento elevado a consideración de los Asambleistas que requiere el parecer de la Junta. (sigue igual)</ins>
+                    </div>
+                    <div class="content-section">
+                        <span class="section-title">Justificación</span>
+                        Es a los efectos de unificar lo establecido con el Presidente del CONAD y evita que unipersonalmente el Pdte. de la Junta ejerza la representación del órgano.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">
+                Art. 97° Auditoría Externa
+            </button>
+            <div class="accordion-content">
+                <div class="content-grid">
+                    <div class="content-section">
+                        <span class="section-title">Artículo Original</span>
+                        <span class="article-title">Art. 97° Auditoría Externa</span><br>
+                        Es facultad de la Junta de Vigilancia elegir la terna de empresas nacionales o extranjeras reconocidas en auditoría externa, previo concurso y comunicar al consejo de Administración su decisión y para la firma del contrato con la adjudicada, la que tendrá a su cargo auditar los estados contables y de gestión, a ser presentados en Asamblea
+                    </div>
+                    <div class="content-section">
+                        <span class="section-title">Propuesta</span>
+                        <span class="article-title">Art. 97° Auditoría Externa</span><br>
+                        Es facultad de la Junta de Vigilancia, previo llamado a concurso, analizar las ofertas de empresas nacionales o extranjeras reconocidas en auditoría externa y presentar al Consejo de Administración una terna de empresas, de las cuales el órgano administrador deberá seleccionar una para la firma del contrato con la adjudicada, la que tendrá a su cargo auditar los estados contables y de gestión, a ser presentados en Asamblea
+                    </div>
+                    <div class="content-section">
+                        <span class="section-title">Justificación</span>
+                        Aclarar que la Junta de Vigilancia tiene la atribución de elegir una terna de empresas, pero que la decisión de elegir, adjudicar y firmar contrato con la empresa seleccionada le corresponde al CONAD
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">
+                Art 156° Implementación de cambios
+            </button>
+            <div class="accordion-content">
+                <div class="content-grid">
+                    <div class="content-section">
+                        <span class="section-title">Artículo Original</span>
+                        <span class="article-title">Art 156° Ampliación de mandato</span><br>
+                        A los efectos de ajustar el periodo de mandato……………
+                    </div>
+                    <div class="content-section">
+                        <span class="section-title">Propuesta (con cambios resaltados)</span>
+                        <span class="article-title">Art 156° Implementación de cambios</span><br>
+                        A fin de aplicar los cambios establecidos en el presente estatuto, en el Art. 62°, inciso “g” los mismos serán aplicados a partir de la Asamblea General Ordinaria del año 2028.
+                    </div>
+                    <div class="content-section">
+                        <span class="section-title">Justificación</span>
+                        Plasmar en este artículo que los cambios introducidos en el Art. 62°, no perjudican a ningún asociado que quiera presentar su candidatura en la próxima Asamblea General Ordinaria del año 2026, en la cual se tendrá elección de autoridades.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <p>Diseñado por José Ruiz Diaz</p>
+
+    <script>
+        function toggleAccordion(header) {
+            const content = header.nextElementSibling;
+            
+            // Cierra todos los demás acordeones abiertos
+            document.querySelectorAll('.accordion-header.active').forEach(activeHeader => {
+                if (activeHeader !== header) {
+                    activeHeader.classList.remove('active');
+                    activeHeader.nextElementSibling.style.display = 'none';
+                    activeHeader.style.borderRadius = '5px'; // Restaura el borde
+                }
+            });
+
+            // Alterna el estado del acordeón actual
+            header.classList.toggle('active');
+            
+            if (content.style.display === "block") {
+                content.style.display = "none";
+                header.style.borderRadius = '5px'; // Cierra y restaura el borde
+            } else {
+                content.style.display = "block";
+                header.style.borderRadius = '5px 5px 0 0'; // Abre y quita el borde inferior
+            }
+        }
+    </script>
+</body>
+</html>
